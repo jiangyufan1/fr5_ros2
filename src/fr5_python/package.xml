@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fr5_python</name><version>0.1.0</version>
+  <description>FR5 Python development package with read-only state subscription</description>
+  <maintainer email="developer@example.com">FR5 developer</maintainer>
+  <license>Apache-2.0</license>
+  <depend>rclpy</depend><depend>fairino_msgs</depend>
+  <exec_depend>launch</exec_depend><exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

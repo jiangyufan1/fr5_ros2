@@ -1,0 +1,4 @@
+fr5_state_echo:
+  ros__parameters:
+    state_topic: /nonrt_state_data
+    print_period_sec: 1.0

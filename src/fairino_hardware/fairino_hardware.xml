@@ -1,0 +1,19 @@
+<library path="fairino_hardware">
+    <class name="fairino_hardware/FairinoHardwareInterface"
+           type="fairino_hardware::FairinoHardwareInterface"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>
+            Hardware interface for Fairino Robots
+        </description>
+    </class>
+    <class name="fairino_hardware/FairinoReadOnlyProbe"
+           type="fairino_hardware::FairinoReadOnlyProbe"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>State-only diagnostic plugin; no motion command interfaces.</description>
+    </class>
+    <class name="fairino_hardware/FairinoMoveItHardware"
+           type="fairino_hardware::FairinoMoveItHardware"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>Opt-in FR5 MoveIt position servo hardware.</description>
+    </class>
+</library>
