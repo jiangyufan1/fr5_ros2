@@ -34,7 +34,6 @@ add_executable(srv_test_client ${EXP_SRC_DIR})
 add_library(
   fairino_hardware 
   SHARED 
-  ./src/fairino_hardware_interface.cpp
   ./src/fairino_readonly_probe.cpp
   ./src/fairino_moveit_hardware.cpp
 )
