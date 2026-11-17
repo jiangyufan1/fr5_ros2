@@ -32,6 +32,8 @@
   <!-- <exec_depend>gazebo_ros_control</exec_depend> -->
   <exec_depend>controller_manager</exec_depend>
   <exec_depend>fairino_description</exec_depend>
+  <exec_depend>fairino_hardware</exec_depend>
+  <exec_depend>fairino5_ikfast_plugin</exec_depend>
   <exec_depend>moveit_configs_utils</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
   <exec_depend>moveit_ros_visualization</exec_depend>

@@ -5,3 +5,29 @@ log/
 __pycache__/
 *.pyc
 .vscode/
+
+# Python development
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*~
+*.swp
+*.swo
